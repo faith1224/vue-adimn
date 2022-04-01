@@ -1,0 +1,49 @@
+@import 'var/index.less';
+@import 'public.less';
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset !important;
+}
+
+:-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+
+html {
+  overflow: hidden;
+  text-size-adjust: 100%;
+  // line-height: 1.4;
+  // font-size: 16px;
+  // -webkit-text-size-adjust: 100%;
+  // font-family: Inter, Roboto, Oxygen, Fira Sans, Helvetica Neue, sans-serif;
+  // font-weight: 400;
+  // -webkit-font-smoothing: antialiased;
+  // -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible !important;
+  overflow-x: hidden !important;
+
+  &.color-weak {
+    filter: invert(80%);
+  }
+
+  &.gray-mode {
+    filter: grayscale(100%);
+    filter: progid:dximagetransform.microsoft.basicimage(grayscale=1);
+  }
+}
+
+a:focus,
+a:active,
+button,
+div,
+svg,
+span {
+  outline: none !important;
+}

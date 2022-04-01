@@ -1,0 +1,13 @@
+{
+  "name": "@vue-admin/utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/shared": "^3.2.26",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.5"
+  }
+}

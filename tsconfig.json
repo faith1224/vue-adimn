@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",   // 模块解析策略，ts默认用node的解析策略，即相对的方式导入
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "strictFunctionTypes": false,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "allowJs": true,    //允许在项目中导入.js文件
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,    //允许导入.json文件
+    "noUnusedLocals": true,   //变量未使用的错误
+    "noUnusedParameters": true,   //函数中参数未使用的错误
+    "experimentalDecorators": true,
+    "lib": ["dom", "esnext"],
+    "types": ["vite/client"],
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "removeComments": true
+  },
+  "include": ["packages"],    //表示需要编辑的文件或目录  
+  "exclude": ["node_modules", "**/*.js"]    //表示编译器需要排除的文件或文件夹
+}

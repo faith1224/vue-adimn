@@ -1,0 +1,6 @@
+export * from './is'
+export * from './deepMerge'
+export * from './util'
+export * from './withInstall'
+export * from './config'
+export * from './log'
